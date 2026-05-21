@@ -32,7 +32,7 @@ const revealObserver = new IntersectionObserver(
 revealItems.forEach((item) => revealObserver.observe(item));
 
 // Statistiche animate
-const counters = document.querySelectorAll('.counter');
+const counters = document.querySelectorAll('.counter:not(.static-label)');
 let statsAnimated = false;
 
 const statsSection = document.querySelector('#stats');
