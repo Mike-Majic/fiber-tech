@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 250" role="img" aria-labelledby="title desc">
+  <title id="title">Fiber Tech logo</title>
+  <desc id="desc">Logo Fiber Tech nero e arancione con linee in fibra ottica</desc>
+  <defs>
+    <style>
+      .b{fill:#000}.o{fill:#ff6a00}.st{stroke:#ff6a00;stroke-width:3;fill:none;stroke-linecap:round}
+    </style>
+  </defs>
+  <path d="M210 44c130-55 360-22 470 68" stroke="#000" stroke-width="14" fill="none"/>
+  <path d="M282 210c122 95 307 90 390-2" stroke="#ff6a00" stroke-width="10" fill="none"/>
+  <text x="70" y="170" class="b" font-family="Inter,Arial,sans-serif" font-size="92" font-style="italic" font-weight="800">FIBER</text>
+  <text x="430" y="170" class="o" font-family="Inter,Arial,sans-serif" font-size="92" font-style="italic" font-weight="800">TECH</text>
+  <g>
+    <path class="st" d="M470 115C610 115 665 92 730 32"/><circle cx="730" cy="32" r="7" class="o"/>
+    <path class="st" d="M470 115C620 117 676 103 748 48"/><circle cx="748" cy="48" r="7" class="o"/>
+    <path class="st" d="M470 115C625 122 690 116 770 70"/><circle cx="770" cy="70" r="7" class="o"/>
+    <path class="st" d="M470 115C636 130 708 128 792 96"/><circle cx="792" cy="96" r="7" class="o"/>
+  </g>
+</svg>
