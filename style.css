@@ -28,7 +28,7 @@ body {
   border-bottom: 1px solid var(--line);
 }
 .logo { display:flex; align-items:center; text-decoration:none; }
-.logo-img { height: 48px; width: auto; display:block; filter: drop-shadow(0 0 14px rgba(255,122,0,.22)); }
+.logo-img { height: 52px; width: auto; max-width: min(52vw, 260px); object-fit: contain; display:block; filter: drop-shadow(0 0 14px rgba(255,122,0,.22)); }
 .nav-links { list-style: none; display: flex; gap: 1rem; margin: 0; padding: 0; }
 .nav-links a { color: var(--muted); text-decoration: none; font-weight: 500; }
 .nav-links a:hover { color: var(--accent); }
@@ -101,6 +101,7 @@ footer a { color: var(--accent); text-decoration: none; }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 
 @media (max-width: 840px) {
+  .logo-img { height: 44px; }
   .two-col { grid-template-columns: 1fr; }
   .menu-toggle { display: block; }
   .nav-links {
